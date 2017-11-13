@@ -1,0 +1,10 @@
+{
+  "name": "vantage777/code-generator",
+  "description": "Code Generator",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Vantage\\CodeGenerator\\": "src/"
+    }
+  }
+}
