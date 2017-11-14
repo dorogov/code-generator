@@ -1,6 +1,7 @@
 {
   "name": "dorogov/code-generator",
   "description": "Code Generator",
+  "version": "1.1",
   "license": "MIT",
   "autoload": {
     "psr-4": {
