@@ -70,7 +70,7 @@ trait ValueTrait
 
                 if (($value !== array_values($value))) {
 
-                    array_walk($value, create_function('&$i,$k', '$i=" \"$k\" => \"$i\"";'));
+                    array_walk($value, create_function('&$i,$k', '$i=" \'$k\' => \'$i\'";'));
                     $value = '[' . PHP_EOL . '        ' . implode("," . PHP_EOL . '        ', $value) . PHP_EOL . '    ]';
 
                 } else {
